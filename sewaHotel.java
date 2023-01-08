@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sewaHotel {
+public class sewaHotel{
     String nama_penyewa,room;
     int Id_Room;
     String[] nama_Room ={"Camelia","Foxglove","Coneflower"," Dandelion"};
