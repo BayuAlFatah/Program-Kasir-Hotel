@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class sewaHotel{
+public class sewaHotel {
     String nama_penyewa,room;
     int Id_Room;
     String[] nama_Room ={"Camelia","Foxglove","Coneflower"," Dandelion"};
@@ -52,7 +52,7 @@ public class sewaHotel{
         }
     }
     private void Transaksi(){
-        pegawai pegawai = new pegawai();
+        // pegawai pegawai = new pegawai();
         Scanner inputUser = new Scanner(System.in);
         System.out.println("\n");
         System.out.println("===============");
@@ -60,7 +60,7 @@ public class sewaHotel{
         System.out.println("===============");
         System.out.println("- Costumer : " + nama_penyewa);
         System.out.println("- Room : " + Id_Room +"-" + room);
-        System.out.println("- Lama Sewa : " + lama_Sewa);
+        System.out.println("- Lama Sewa : " + lama_Sewa + " Malam");
         System.out.println("\n");
         var biaya = lama_Sewa * harga_Sewa;
         System.out.println("- Biaya Sewa : " + biaya);
@@ -76,6 +76,6 @@ public class sewaHotel{
         }
         System.out.println("Kembalian " + (uang_bayar - biaya));
         System.out.println("================================================");
-        System.out.println("Di Input oleh " + "[" + pegawai.id_Pegawai + pegawai.nama_pegawai + "]");
+        System.out.println("Di Input oleh " + "["+ "]");
     }
 }

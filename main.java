@@ -8,8 +8,8 @@ public class main {
         System.out.println("|| Selamat datang di Hotel Bayu ||");
         System.out.println("----------------------------------");
         System.out.println("\n");
-        pegawai.dataPegawai();
-        sewaHotel.sewaHotel();
+         pegawai.dataPegawai();
+         sewaHotel.sewaHotel();
     
 
 

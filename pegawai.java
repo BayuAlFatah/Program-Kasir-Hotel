@@ -18,6 +18,7 @@ class pegawai{
             id_Pegawai = "270303";
             nama_pegawai = "Bayu alfatah" ;
             System.out.println("Nama pegawai : " + nama_pegawai);
+           
         }else{
             // JIKA ID PEGAWAI TIDAK SESUAI MAKA AKAN DIKEMBALIKAN KE METHOD DATAPEGAWAI
             System.err.println("Id Pegawai Yang Anda Masukkan Salah");
