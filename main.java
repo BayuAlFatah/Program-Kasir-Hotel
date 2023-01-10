@@ -8,6 +8,7 @@ public class main {
         System.out.println("|| \t JL.Ahmad Yani 27 \t||");
         System.out.println("----------------------------------");
         System.out.println("\n");
+        //ambil method di class Hotel dengan nama pegawai
          pegawai.dataPegawai();
          pegawai.sewaHotel();
     
